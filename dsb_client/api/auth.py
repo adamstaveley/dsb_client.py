@@ -1,6 +1,5 @@
-from typing import Coroutine
-from swagger_client.api.auth_api import AuthApi
-from swagger_client.models import LoginDataDTO, LoginReturnDataDTO
+from dsb_client.swagger_client.api.auth_api import AuthApi
+from dsb_client.swagger_client.models import LoginDataDTO
 
 class Auth:
     def __init__(self, auth_api:AuthApi):

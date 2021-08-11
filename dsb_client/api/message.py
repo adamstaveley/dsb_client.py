@@ -9,6 +9,6 @@ class Message:
         thread = self.message.message_controller_publish(body=data, async_req=True)
         return thread.get()
 
-    async def pull(self, fqcn:str, amount:int=None):
+    async def pull(self, fqcn:str, amount:int=1):
         thread = self.message.message_controller_get_new_from_channel(fqcn=fqcn, amount=amount, async_req=True)
         return thread.get()
