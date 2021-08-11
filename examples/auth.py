@@ -1,7 +1,7 @@
 from typing import List
-from swagger_client.models.message_dto import MessageDTO
-from swagger_client import ApiClient, AuthApi, MessageApi, Configuration
-from swagger_client.models import LoginDataDTO
+from dsb_client.swagger_client.models.message_dto import MessageDTO
+from dsb_client.swagger_client import ApiClient, AuthApi, MessageApi, Configuration
+from dsb_client.swagger_client.models import LoginDataDTO
 
 config = Configuration()
 config.host = 'http://localhost:3001' # message broker
