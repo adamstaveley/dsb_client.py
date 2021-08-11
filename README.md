@@ -31,7 +31,7 @@ will need to substitute this for your own private key. See the DSB Message Broke
 for more information about using your private key to obtain a Decentralized
 Identifier (DID) and enrol as a user of the EW Distributed Service Bus.
 
-The client will also be distributed via PyPy in the near future.
+The client will also be distributed via PyPI in the near future.
 
 # swagger-client
 Swagger documentation for the DSB Message Broker API
@@ -58,7 +58,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import swagger_client
+import dsb_client.swagger_client
 ```
 
 ### Setuptools
@@ -72,7 +72,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import swagger_client
+import dsb_client.swagger_client
 ```
 
 ## Getting Started
@@ -82,8 +82,8 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import dsb_client.swagger_client
+from dsb_client.swagger_client.rest import ApiException
 from pprint import pprint
 
 

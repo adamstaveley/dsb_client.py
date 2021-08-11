@@ -1,5 +1,5 @@
-from swagger_client.api.message_api import MessageApi
-from swagger_client.models import MessageDTO
+from dsb_client.swagger_client.api.message_api import MessageApi
+from dsb_client.swagger_client.models import MessageDTO
 
 class Message:
     def __init__(self, message_api:MessageApi) -> None:

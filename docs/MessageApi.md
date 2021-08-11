@@ -16,8 +16,8 @@ Method | HTTP request | Description
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import dsb_client.swagger_client
+from dsb_client.swagger_client.rest import ApiException
 from pprint import pprint
 
 
@@ -64,8 +64,8 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import dsb_client.swagger_client
+from dsb_client.swagger_client.rest import ApiException
 from pprint import pprint
 
 

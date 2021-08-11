@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_channel_dto import CreateChannelDto  # noqa: E501
-from swagger_client.rest import ApiException
+import dsb_client.swagger_client
+from dsb_client.swagger_client.models.create_channel_dto import CreateChannelDto  # noqa: E501
+from dsb_client.swagger_client.rest import ApiException
 
 
 class TestCreateChannelDto(unittest.TestCase):

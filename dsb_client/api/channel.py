@@ -1,5 +1,5 @@
-from swagger_client.api import ChannelApi
-from swagger_client.models import CreateChannelDto
+from dsb_client.swagger_client.api import ChannelApi
+from dsb_client.swagger_client.models import CreateChannelDto
 
 class Channel:
     def __init__(self, channel_api:ChannelApi) -> None:

@@ -1,4 +1,4 @@
-from swagger_client.api.health_api import HealthApi
+from dsb_client.swagger_client.api.health_api import HealthApi
 
 class Health:
     def __init__(self, health_api:HealthApi) -> None:

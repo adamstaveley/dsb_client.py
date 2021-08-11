@@ -1,6 +1,7 @@
 import base64
 import binascii
 from eth_keys import keys
+
 class Crypto:
 
     def __base64_url_encode(self, string):

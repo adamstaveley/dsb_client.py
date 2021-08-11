@@ -27,6 +27,7 @@ REQUIRES = [
     "certifi",
     "python-dateutil",
     "eth_keys >= 0.3.3",
+    "pycryptodome >= 3.10.1"
 ]
 
 setup(

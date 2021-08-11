@@ -14,11 +14,11 @@
 from __future__ import absolute_import
 
 # import models into model package
-from swagger_client.models.create_channel_dto import CreateChannelDto
-from swagger_client.models.inline_response200 import InlineResponse200
-from swagger_client.models.inline_response200_info import InlineResponse200Info
-from swagger_client.models.inline_response503 import InlineResponse503
-from swagger_client.models.login_data_dto import LoginDataDTO
-from swagger_client.models.login_return_data_dto import LoginReturnDataDTO
-from swagger_client.models.message_dto import MessageDTO
-from swagger_client.models.publish_message_dto import PublishMessageDto
+from dsb_client.swagger_client.models.create_channel_dto import CreateChannelDto
+from dsb_client.swagger_client.models.inline_response200 import InlineResponse200
+from dsb_client.swagger_client.models.inline_response200_info import InlineResponse200Info
+from dsb_client.swagger_client.models.inline_response503 import InlineResponse503
+from dsb_client.swagger_client.models.login_data_dto import LoginDataDTO
+from dsb_client.swagger_client.models.login_return_data_dto import LoginReturnDataDTO
+from dsb_client.swagger_client.models.message_dto import MessageDTO
+from dsb_client.swagger_client.models.publish_message_dto import PublishMessageDto
