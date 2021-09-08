@@ -1,7 +1,7 @@
 # dsb_client
 
-> This is a new version of the DSB Python Client. For the previous version
-> see https://github.com/energywebfoundation/ew_dsb_client_lib_py
+> This repository has been archived. Please use
+> https://github.com/energywebfoundation/ew_dsb_client_lib_py
 
 Python client for use with the Energy Web DSB Message Broker. Some understanding
 of the DSB is required (DID-based authentication via Energy Web Switchboard) and
